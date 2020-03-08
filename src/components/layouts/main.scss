@@ -1,0 +1,92 @@
+// MasterLayout
+.ant-layout {
+  background: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// Header
+.ant-layout-header {
+  padding: 0;
+  background: none;
+  height: 130px;
+  z-index: 2;
+}
+
+.header-title-container-full {
+  background-color: #08142b;
+  opacity: 0.75;
+  height: 50px;
+}
+
+.header-menu-container-full {
+  opacity: 0.75;
+  height: 80px;
+  background-color: #fff;
+}
+
+.header-container {
+  width: 1270px;
+  margin: auto;
+  .header-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    .title-left {
+      display: flex;
+      align-items: center;
+    }
+    .title-right {
+      display: flex;
+      align-items: center;
+    }
+    .title-text {
+      display: flex;
+      font-size: 14px;
+      font-weight: 500;
+      padding-left: 5px;
+      align-items: center;
+      color: #fff;
+    }
+    .color-icon-title {
+      color: rgb(12, 172, 238);
+    }
+  }
+  .header-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    .header-logo {
+      display: flex;
+      align-items: center;
+    }
+    .header-content-menu {
+      display: flex;
+      align-items: center;
+      .item-menu {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+        &:hover, &:active {
+          color: rgb(12, 172, 238);
+        }
+      }
+    }
+  }
+}
+
+.color-active {
+  color: rgb(12, 172, 238) !important;
+}
+
+
+// Content
+
+
+
+
+// Footer
