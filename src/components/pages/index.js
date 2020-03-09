@@ -1,3 +1,3 @@
-export { default as TrangChu } from './TrangChu';
-export { default as GioiThieu } from './GioiThieu';
-export { default as Page404 } from './Page404';
+export { TrangChu } from './TrangChu';
+export { Page404 } from './Page404';
+export { GioiThieu } from './GioiThieu';

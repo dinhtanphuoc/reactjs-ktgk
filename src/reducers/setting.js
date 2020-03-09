@@ -1,23 +1,8 @@
+import database from 'src/database.json';
+
 const initialState = {
-  dsMenuHeader: [
-    {
-      link: '/',
-      name: 'Trang chủ'
-    },
-    {
-      link: '/gioi-thieu',
-      name: 'Giới thiệu'
-    },
-    {
-      link: '/lien-he',
-      name: 'Liên hệ'
-    }
-  ],
-  headerTitle: {
-    diaChi: '01 Lê Thanh Nghị, Quận Hải Châu, Thành Phố Đà Nẵng',
-    soDienThoai: '+84 934 895 060',
-    email: 'phuocdt.mmo@gmail.com'
-  }
+  dsMenuHeader: [...database.setting.menuHeader],
+  headerTitle: {...database.setting.headerTitle}
 };
 
 export default function setting(state = initialState, action) {

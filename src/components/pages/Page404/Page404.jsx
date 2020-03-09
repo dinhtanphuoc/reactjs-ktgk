@@ -1,7 +1,6 @@
 import React from 'react';
 import { Result, Button } from 'antd';
 import { withRouter } from "react-router";
-import 'src/components/pages/_page404.scss';
 
 const Page404 = (props) => {
   return (
