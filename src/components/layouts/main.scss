@@ -90,3 +90,74 @@
 
 
 // Footer
+.title-footer {
+  text-transform: uppercase;
+}
+.item-lien-he {
+  margin-top: 10px;
+  font-size: 15px;
+  .text-lien-he {
+    margin-left: 10px;
+  }
+}
+.pd-10 {
+  padding: 10px;
+}
+.hot-line {
+  font-size: 17px;
+  color: #ed3237;
+  font-weight: 600;
+}
+.wrap-dang-ky {
+  margin-top: 15px;
+  .wrap-form {
+    display: flex;
+    .input-khuyen-mai {
+      width: calc(100% - 65px);
+      border: 1px solid #ccc;
+      padding: 7px 10px;
+      &:focus {
+        outline: 0;
+      }
+    }
+    .btn-send {
+      background: #000;
+      color: #fff;
+      padding: 4px 20px;
+      font-size: 14px;
+      cursor: pointer;
+      border: 1px solid #000;
+    }
+  }
+}
+.wrap-mangxh {
+  margin-top: 20px;
+  display: flex;
+  .icon-mangxh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 9px;
+    background: #ccc;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    &:first-child {
+      background-color: #3b5998;
+    }
+    &:nth-child(2) {
+      background-color: #24a8e0;
+    }
+    &:nth-child(3) {
+      background-color: #ce3633;
+    }
+    &:nth-child(4) {
+      background-color: #cc3300;
+    }
+    .icon {
+      color: #fff;
+    }
+  }
+}
