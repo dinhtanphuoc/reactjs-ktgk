@@ -1,0 +1,23 @@
+.title-gioithieu {
+  font-size: 30px;
+}
+.wrap-dich-vu {
+  background: #f5f5f5;
+  margin-bottom: 15px;
+  .title-menu {
+    padding: 10px;
+    border-left: 5px solid red;
+    margin: 0;
+  }
+  .item-menu {
+    padding: 10px;
+    border-top: 1px solid #e5e2e2;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
+.wrap-news {
+  .item-menu {
+    text-transform: capitalize;
+  }
+}

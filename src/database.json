@@ -37,5 +37,35 @@
       "titleContent": "Gia khang - Chuyên nghiệp và kinh nghiệm",
       "content": "Công Ty TNHH MTV Gia Khang là một trong những công ty chuyên cung cấp dịch vụ kế toán, dịch vụ tư vấn thuế, dịch vụ tư vấn tài chính, dịch vụ làm thủ tục về thuế, dịch vụ tư vấn quản lý doanh nghiệp hàng đầu Việt Nam. Chúng tôi có đầy đủ nguồn lực và khả năng để tự tin đáp ứng tất cả nhu cầu của khách hàng. Với đội ngũ cán bộ, nhân viên trẻ trung, tài năng trong đó có nhiều cử nhân, thạc sĩ hơn 10 năm kinh nghiệm trong lĩnh vực tài chính kế toán..."
     }
+  },
+  "footer": {
+    "lienHe": {
+      "diaChi": "01 Lê Thanh Nghị, Quận Hải Châu, Thành Phố Đà Nẵng",
+      "sdt": "84 934 895 060",
+      "email": "phuocdt.mmo@gmail.com",
+      "web": "phuocdt.mmo@gmail.com"
+    },
+    "dichVu": [
+      {
+        "value": "DỊCH VỤ KẾ TOÁN TRỌN GÓI",
+        "link": "/ke-toan-goi"
+      },
+      {
+        "value": "THÀNH LẬP CÔNG TY",
+        "link": "/thanh-lap-cong-ty"
+      },
+      {
+        "value": "THÀNH LẬP DOANH NGHIỆP",
+        "link": "/thanh-lap-doanh-nghiep"
+      },
+      {
+        "value": "GIẤY PHÉP ĐẦU TƯ",
+        "link": "/giay-phep-dau-tu"
+      },
+      {
+        "value": "DỊCH VU QUYẾT TOÁN THUẾ NĂM",
+        "link": "/quyet-toan-thue-nam"
+      }
+    ]
   }
 }
