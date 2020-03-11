@@ -14,10 +14,26 @@
     border-top: 1px solid #e5e2e2;
     text-transform: uppercase;
     margin: 0;
+    display: block;
+    color: #000;
   }
 }
 .wrap-news {
   .item-menu {
     text-transform: capitalize;
   }
+}
+.wrap-breadcrumb {
+  background: #ededed;
+  padding: 20px;
+  .ant-breadcrumb {
+    color: #666;
+    font-weight: 500;
+    a {
+      color: #666;
+    }
+  }
+}
+.content-gioithieu {
+  font-size: 16px;
 }

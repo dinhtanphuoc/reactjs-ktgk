@@ -90,6 +90,9 @@
 
 
 // Footer
+.container-footer {
+  background: #494848;
+}
 .title-footer {
   text-transform: uppercase;
 }
@@ -159,5 +162,14 @@
     .icon {
       color: #fff;
     }
+  }
+}
+.bottom-footer {
+  text-align: center;
+  color: #999;
+  font-size: 15px;
+  padding: 25px;
+  p {
+    margin: 0;
   }
 }
