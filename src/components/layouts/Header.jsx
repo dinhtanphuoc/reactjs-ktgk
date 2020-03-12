@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { Layout, Affix } from 'antd';
 import { Link, useLocation } from 'react-router-dom';
 import logo from 'src/assets/images/logo-ketoangiakhang.png';
-import { map, get } from 'lodash';
+import { map, get, isEmpty } from 'lodash';
 import { withRouter } from "react-router";
 import classnames from 'classnames';
 
@@ -41,19 +41,39 @@ const Header = (props) => {
                 />
               </div>
               <div className="header-content-menu">
-                {
-                  map(props.dsMenuHeader, ((item, index) => (
-                    <Link
-                      key={index}
-                      className={classnames("item-menu pl20 pr20", {
-                        "color-active": item.link === get(location, 'pathname')
-                      })}
-                      to={item.link}
-                    >
-                      { item.name }
-                    </Link>
-                  )))
-                }
+                <nav className="wrap-nav">
+                  <ul className="list-menu">
+                    {
+                      map(props.dsMenuHeader, ((item, index) => (
+                        <li>
+                          <Link
+                            key={index}
+                            className={classnames("item-menu pl20 pr20", {
+                              "color-active": item.link === get(location, 'pathname')
+                            })}
+                            to={item.link}
+                          >
+                            { item.name }
+                          </Link>
+                          {!isEmpty(item.child) && (
+                            <ul className="wrap-nav-child">
+                              {map(item.child, ((itemChild, indexChild) => (
+                                <li className="item-child">
+                                  <Link
+                                    key={indexChild}
+                                    to={itemChild.link}
+                                  >
+                                    { itemChild.name }
+                                  </Link>
+                                </li>
+                              )))}
+                            </ul>
+                          )}
+                        </li>
+                      )))
+                    }
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>

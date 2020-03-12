@@ -161,3 +161,58 @@
     }
   }
 }
+
+
+/* CSS Document */
+
+
+.wrap-nav {
+  .list-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    li {
+      display:inline-block;
+      &:hover {
+        .wrap-nav-child {
+          display:inherit;
+        }
+      }
+    }
+    .wrap-nav-child {
+      display: none;
+      position: absolute; 
+      top: 60px;
+      background: #f0f2f5;
+      min-width: 170px;
+      padding: 0;
+      border: 1px solid #ededed;
+      .item-child {
+        display: block;
+        line-height: 1.4;
+        padding: 10px;
+        border-bottom: 1px dotted #ccc;
+        font-weight: normal;
+        a {
+          color: #000;
+          font-size: 14px;
+        }
+        &:hover {
+          background: seagreen;
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .item-menu {
+    display:block;
+    color:#000;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+    padding: 10px;
+  } 
+}
