@@ -38,7 +38,7 @@
   "devDependencies": {
     "classnames": "^2.2.6",
     "connected-react-router": "^6.7.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "redux-thunk": "^2.3.0"
   }
 }
